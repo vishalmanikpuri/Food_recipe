@@ -1,0 +1,37 @@
+             <form name="frmContact" id="frmContact" method="post" enctype="multipart/form-data" action="./ContactusSubmission.php"  onsubmit="return validateForm()" method="post">
+            <div class="inputBox" data-aos="fade-up-right" data-aos-duration="2000">
+                        <input type="text" name="Name" id="name" placeholder="Enter Your Name*" required>
+                        <!-- / -->
+                        <div class="error" id="nameErr"></div>
+                        <!-- /// -->
+                    </div>
+                    <div class="inputBox" data-aos="fade-up-right" data-aos-duration="2000">
+                        <input type="text" name="Email" id="email" placeholder="Enter Your Email*" required>
+                    <!-- / -->
+                    <div class="error" id="emailErr"></div>
+                    <!-- /// -->
+                    </div>
+                    
+                    <div class="inputBox" data-aos="fade-up-right" data-aos-duration="2000">
+                        <input type="text" name="Subject" id="subject" placeholder="Enter Subject*" required>
+                    <!-- // -->
+                    <div class="error" id="subjectErr"></div>
+                    <!-- /// -->
+                    </div>
+                    <div class="inputBox" data-aos="fade-up-right" data-aos-duration="2000">
+                        <input type="text" name="Phone" id="phone" placeholder="Enter Your Phone number*" required>
+                    <!-- /// -->
+                    <div class="error" id="mobileErr"></div>
+                    <!-- // -->
+                    </div>
+
+                    <div class="inputBox" data-aos="fade-up-right" data-aos-duration="2000">
+                        <textarea placeholder="Enter Your Message Here*"  id="message" name="Content" rows=6 required></textarea>
+                    <!-- /// -->
+                    <div class="error" id="messageErr"></div>
+                    <!-- /// -->
+                    </div>
+                    <div class="inputBox" data-aos="zoom-up" data-aos-duration="1500">
+                        <input type="submit" name="Submit" value="Submit" >
+                    </div>
+                </form>

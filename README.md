@@ -5,6 +5,8 @@ Discover recipes, cooks, videos, and how-tos based on the food you love. Easy re
 
 API used:- https://www.themealdb.com/api.php
 
+Animation on scroll library:- https://github.com/michalsnik/aos
+
 
 
 
